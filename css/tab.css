@@ -1,0 +1,65 @@
+* {
+    margin:0px ;
+    padding:0px;
+    box-sizing: border-box;
+}
+.body {
+    position: relative;
+}
+.tabbox {
+    position:absolute;
+    width:400px;
+    height:400px;
+    margin: 100px 0 300px 300px ;
+    border:1px solid gray ;  
+}
+.firstnav {
+    border-bottom:1px solid gray;
+    height:70px;
+}
+.firstnav ul {
+    list-style: none;
+}
+.firstnav ul li {
+    position: relative;
+    float: left;
+    width:70px;
+    height: 70px;
+    border-right:1px solid gray;
+    border-bottom :1px solid gray;
+    text-align: center;
+    line-height: 70px;
+}
+.liactive {
+     background-color: green;
+}
+ 
+.tabadd {
+    float: right;
+    border:1px solid gray ;
+    width:50px;
+    height:50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+ 
+   section {
+         display: none;
+    } 
+     .conactive {
+    display: block;
+    height:200px;
+  }
+ .firstnav ul li span  input {
+      width:50px;
+  }
+  .tabcon section input {
+      position: absolute;
+      left:50px;
+      top:100px;
+      width: 300px;
+      height: 200px;
+      border:1px solid red;
+  }
+  

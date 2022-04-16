@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ewwrj6');
+    src:  url('../fonts/icomoon.eot?ewwrj6#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ewwrj6') format('truetype'),
+      url('../fonts/icomoon.woff?ewwrj6') format('woff'),
+      url('../fonts/icomoon.svg?ewwrj6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.w {
+    width:1200px;
+    margin:0 auto ;
+}
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1ff;
+}
+ .fr{
+     float:right;
+ }
+ .fl{
+     float:left;
+ }
+ .style_red {
+     color:#c81632
+ }
+ .shortcut ul li {
+     float: left;
+     font-size: 16px;
+ }
+ .shortcut .fr ul li:nth-child(even){
+     width:1px;
+     height:12px;
+     background-color: #666;
+     margin: 9px 15px 0px;
+ }
+ /* 字体图标网https://icomoon.io/app/#/select */
+    
+   .header {
+       position: relative;
+       height:105px;
+       /* background-color: pink; */
+
+   }
+   .logo {
+       position: absolute;
+       top:25px;
+       width:171px;
+       height:61px;
+   }
+   .logo a {
+       display: block;
+       width:171px;
+       height:61px;
+       background: url(../images/logo.jpg) no-repeat;
+       /* font-size: 0px;隐藏图片文字的做法京东，下面是淘宝 */
+       text-indent: -999px;
+       overflow: hidden;
+   }
+   /* search */
+   .search {
+       position: absolute;
+       left:246px;
+       top:25px;
+       width:538px;
+       height:36px;
+       border:2px solid #b1191a
+   }
+   .search input{
+     float: left;
+      width: 454px;
+      height: 32px;
+      padding-left: 10px; 
+   }
+   .search button {
+    float:left;
+    width:80px;
+    height:32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    line-height: 32px;
+   }
+   .hotwords {
+       position: absolute;
+       top:66px;
+       left:246px;
+   }
+   .hotwords a {
+       margin:0 10px;
+   }
+     .shopcar {
+         position: absolute;
+         width:140px;
+         height:35px;
+         border: 1px solid #dfdfdf;
+         background-color: #f7f7f7;
+         top:25px;
+         right:60px;
+         text-align: center;
+         line-height: 35px;
+     } 
+      
+    /* .shopcar::after{
+        content: '\e901';
+        font-family: 'icomoon';
+        margin-left: 10px;
+    } */
+    .count{
+        position: absolute;
+        top:-5px;
+        left:105px;
+        height:14px;
+        line-height: 14px;
+        padding:0 5px;
+        color:#fff;
+        background-color: #e60012;
+        border-radius: 7px 7px 7px 0px;
+    }
+    .nav {
+        height:47px;
+        border-bottom: 2px solid #b1191a;
+    }
+    .nav .dropdown {
+        float: left;
+        width:210px;
+        height:45px;
+        background-color: #b1191a;
+    }
+    .nav .navitems{
+        float:left;
+    }
+    .dropdown .dt {
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+         font-size: 16px;
+    }
+    .dropdown .dd {
+        width:210px;
+        height: 465px;
+        margin-top: 2px;
+        background-color: #c81623;
+    }
+   .dropdown .dd ul li {
+       width:210px;
+       height:31px;
+       line-height: 31px;
+       margin-left: 2px;
+       padding-left: 10px;
+   }
+   /* .dropdown .dd ul li::after{
+       position: absolute;
+       content: '\e901';
+       top:1px;
+       right:10px;
+       color: #fff;
+         font-family: 'icomoon';
+       font-size: 14px; 
+   } */
+   .dropdown .dd ul li :hover {
+      background-color: #fff ; 
+   }
+   .dropdown .dd ul li a {
+       font-size:16px;
+       color:#fff;
+       display: inline-block;
+       width:198px;
+       
+   }
+   .dropdown .dd ul li:hover a {
+       color:#c81623 ;
+   }
+   .navitems ul li {
+       float: left;
+   }
+   .navitems ul li a {
+       display: block;
+       height:45px;
+       line-height: 45px;
+       font-size: 16px;
+       padding:0 25px;
+   }
+   /* 底部模块制作 */
+   .footer {
+       height: 415px;
+       background-color: #f5f5f5;
+       padding-top: 30px;
+   }
+   .mod-service {
+       height:80px;
+       border-bottom: 1px solid #ccc;
+   }
+   .mod-service ul li {
+    float: left;
+    width:300px;
+    height:50px;
+    padding-left: 35px;
+   }
+   .mod-service ul li h5{
+       float: left;
+       width:50px;
+       height: 50px;
+        background: url(../images/品优购图片.jpg)no-repeat -83px -82px;
+       margin-right: 8px;
+   }
+   .service-txt h4 {
+       font-size: 14px;
+   }
+   .service-txt p {
+       font-size: 12px;
+   }
+    
+   .mod-help{
+    height:185px;
+    border-bottom: 1px solid #ccc;
+    padding-top:20px;
+    padding-left: 50px; 
+   }
+   .mod-help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px; 
+   }
+   .mod-help dl{
+       float: left;
+       width:200px;
+       
+   }
+   .mod-help img{
+       height: 100px;
+   }
+   .mod-help dl:last-child{
+       width:90px;
+       text-align: center;
+   }
+   .links {
+       margin-bottom: 15px;
+   }
+   .links a {
+       margin:0 3px;
+   }
+   .mod-copyright {
+       text-align: center;
+       padding-top: 20px;
+   }
+   .copyright {
+    line-height: 20px;
+   }

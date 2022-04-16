@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+table {
+     margin: 30px;
+    width: 800px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+th,tr,td {
+    border: 1px solid gray;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    
+}
